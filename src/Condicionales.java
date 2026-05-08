@@ -8,5 +8,13 @@ public class Condicionales {
         else {
             System.out.println(numero2 + " es mayor que " + numero1);
         }
+
+        //Condicional par
+        if (numero1 % 2 == 0) {
+            System.out.println("El número " + numero1 + " es par.");
+        }
+        else{
+            System.out.println("El número " + numero1 + " es impar.");
+        }
     }
 }
