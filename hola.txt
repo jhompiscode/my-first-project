@@ -1,0 +1,28 @@
+una clase responde a dos preguntas:
+¿que tengo? el estado y sus caracteristicas descriptivas -> (primera parte - instancias y variables)
+¿que hago? las acciones que el objeto realiza (funciones y metodos -  segunda parte dentro del estado)
+
+void -> las variables no van con clase
+static -> las variables tienen que tener el estado static
+
+--- SEMANTICA ---
+
+palabras reservadas: class (clase), public (visibilidad publica), static (dato/objeto estatico), main (metodo principal - acciones)
+(if, if else, else - condiciones)
+
+TIPOS DE DATOS: String (S mayuscula), char (caracter - ''), int (enteros), float/double (decimales), boolean (true/false sin mayuscula)
+
+ESTRUCTURA:
+1. public class Nombre {
+}
+
+2. metodo principal (psvm)
+public static void main(){
+}
+
+3. Variables:
+String nombre_variable = "valor";
+int numero = 0;
+float decimal = 0.0f;
+double decimal = 0.0;
+boolean condicion = true;
